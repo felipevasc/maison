@@ -1,0 +1,201 @@
+body {
+    background-color: #FFFFFF;
+    background: none;
+}
+table.form {
+    min-width: 400px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+table.form caption {
+    font-weight: bold;
+    font-size: 30px;
+}
+table.form thead tr td:nth-child(1) {
+    text-align: right;
+}
+table.form thead tr td:nth-child(2) {
+    text-align: left;
+}
+table.form tbody tr td:nth-child(1) {
+    text-align: right;
+    border: #000000 solid 2px;
+    background-color: rgba(200, 200, 200, 0.2);
+    font-weight: bold;
+    padding: 4px;
+    width: 250px;
+}
+table.form tbody tr td:nth-child(2) {
+    border: #000000 solid 2px;
+    padding: 4px;
+    font-size: 13px;
+    width: 350px;
+}
+table.form input[type="text"] {
+    border-radius: 4px;
+    padding: 3px;
+    width: 100%;
+}
+table.form select {
+    border-radius: 6px;
+    padding: 3px;
+    width: 100%;
+}
+table.form button, table.form input[type='submit'], table.form input[type='button'], table.form input[type='reset'] {
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #5786BA;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+table.form button:hover, table.form input[type='submit']:hover, table.form input[type='button']:hover, table.form input[type='reset']:hover {
+    background-color: #37669A;
+}
+
+.table {
+    border: #000000 solid 1px !important;
+    border-collapse: collapse !important;
+    border-radius: 8px !important;
+}
+.table td, .table th {
+    border: #000000 solid 1px !important;
+}
+.table tfoot tr td {
+    text-align: right;
+}
+
+table.list {
+    width: 100%;
+    border-spacing: 1px;
+}
+
+table.list caption {
+    font-weight: bold;
+    font-size: 19px;
+    color: #073666;
+}
+
+table.list thead tr th {
+    background-color: #37669A;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    
+    padding: 3px;
+}
+table.list thead tr:first-child th {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+table.list tbody tr td {
+    padding-left: 3px;
+    height: 30px;
+}
+table.list tbody tr:nth-child(odd) td {
+    background-color: #DDDDDD;
+}
+table.list tbody tr:nth-child(even) td {
+    background-color: #F0F0F0;
+}
+table.list tbody tr:hover td {
+    background-color: chartreuse;
+}
+table.list tbody tr td:last-child {
+    text-align: center;
+}
+table.list tbody tr td:last-child img {
+    width: 24px;
+    height: 24px;
+    border-top: #CCCCCC solid 1px;
+    border-left: #CCCCCC solid 1px;
+    border-bottom: #AAAAAA solid 2px;
+    border-right: #AAAAAA solid 2px;
+    border-radius: 3px;
+    padding: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+table.list tbody tr td[colspan='100%'] {
+    text-align: center;
+}
+table.list tbody tr td:last-child img:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+table.list tbody tr td:last-child img:active {
+    border-top: #AAAAAA solid 2px;
+    border-left: #AAAAAA solid 2px;
+    border-bottom: #CCCCCC solid 1px;
+    border-right: #CCCCCC solid 1px;
+}
+table.list tfoot tr td {
+    background-color: #37669A;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 2px;
+}
+div.botoes {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+span.botao {
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+    height: 60px;
+    border-top: #FFFFFF solid 1px;
+    border-left: #FFFFFF solid 1px;
+    border-right: #000000 solid 1px;
+    border-bottom: #000000 solid 1px;
+    border-radius: 10px;
+    background-color: #CFEFFF;
+    font-weight: bolder;
+    cursor: pointer;
+    padding-top: 3px;
+}
+span.botao:hover {
+    background-color: #AFCFFF;
+}
+span.botao:active {
+    border-top: #000000 solid 1px;
+    border-left: #000000 solid 1px;
+    border-right: #FFFFFF solid 1px;
+    border-bottom: #FFFFFF solid 1px;
+    background-color: #9FBFEF;
+}
+
+td.hover {
+    background-color: chartreuse;
+}
+
+ul.menu-ui {
+    width: 170px;
+    border-radius: 9px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5px;
+}
+ul.menu-ui li {
+    border-radius: 9px;
+    font-weight: bold;
+    height: 38px;
+    border-bottom: #9FBFEF dashed 1px;
+    text-align: left;
+}
+
+span.middle {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul.menu-ui ul {
+    width: 200px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    text-align: center;
+}
